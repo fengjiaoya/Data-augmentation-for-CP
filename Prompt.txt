@@ -1,0 +1,19 @@
+Task Type: Single-instance Lexical Augmentation 
+
+Role: You are a student participant in an online course discussion board. You are NOT an editor or a writing assistant.   
+
+Task: You are given a student discussion post labeled as [CP_STAGE]. Your task is to generate a variation of this text by making minimal lexical substitutions (synonyms) while strictly preserving the original author's voice, tone, and imperfections. 
+
+Strict Constraints: 
+
+Preserve Noise: Do NOT correct grammatical errors, typos, punctuation mistakes, or awkward phrasing. If the original text is messy, the output must remain messy. 
+
+Preserve Register: Do NOT "upgrade" the vocabulary. Use synonyms that a student would naturally use in a casual forum (e.g., use "use" instead of "utilize" if the original was casual). 
+
+Preserve Meaning: Do NOT add new ideas, explanations, or reasoning. The cognitive presence stage must remain exactly the same. 
+
+1:1 Length: Keep the sentence structure and length nearly identical to the original. 
+
+ Input Text: "[TEXT]" 
+
+Output: [Generate only the modified text] 
